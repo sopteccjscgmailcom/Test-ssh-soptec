@@ -4,7 +4,7 @@
 1. Nos dirigimos a la sig ruta y si no encontramos creamos la carpeta .ssh
   C:\Users\[tusuario]\.ssh
 2. Luego Creamos la llave privada & pública. Cambiar "example@gmail.com" y "github-account1"
-  ssh-keygen -t ed25519 -C "example@gmail.com" -f github-account1
+    ssh-keygen -t ed25519 -C "example@gmail.com" -f github-account1
 
 ejemplos:
 * ssh-keygen -t ed25519 -C "soptec.cjsc@gmail.com" -f soptec
@@ -29,7 +29,7 @@ Host github-account1
 # agregamos
     git init
 # cualquiera de los 2
-  git clone
+    git clone
 
 4. Establecer correo de la cuenta cada que inicializamos o clonamos un repositorio.
 git config user.email "correo@gmail.com"

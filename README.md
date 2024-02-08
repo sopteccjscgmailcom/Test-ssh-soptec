@@ -25,8 +25,10 @@ Host github-account1
 
 ## Creacion del repositorio
 3. Inicializar repositorio  o clonamos un repositorio
-  git init                     
-  
+
+# agregamos
+    git init
+# cualquiera de los 2
   git clone
 
 4. Establecer correo de la cuenta cada que inicializamos o clonamos un repositorio.

@@ -34,20 +34,21 @@ Host github-account1
 ## Establecemos el correo de la cuenta cada que inicializamos o clonamos un repositorio.
     config user.email "correo@gmail.com"
 
-otros ejemplos:
+#### otros ejemplos
     git config user.email "soptec.cjsc@gmail.com"
 
-mas
+##### mas
       git config user.email "cliver.js.t@gmail.com"
 
-### Agregar cambios
+### Hacemos cambion normales a nuestro repositorio
     git add .
 
-6. Guardar cambios
-git commit -m "first commit"
+### Guardar cambios
+  git commit -m "first commit"
 
-7. Conectar con repositorio remoto
-git remote add origin
+### !IMPORTANT Poner el nombre de la llave que creamos 
+    git remote add origin git@github-account1:correo@gmail.com/test.git
 
-8. Publicar cambios
-git push origin master
+
+##### Publicar cambios
+    git push origin master

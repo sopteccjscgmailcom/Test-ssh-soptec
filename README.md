@@ -9,6 +9,7 @@
 
 ##### ejemplos para crear 2 llaves para correos diferentes
     ssh-keygen -t ed25519 -C "soptec.cjsc@gmail.com" -f soptec
+#### -
     ssh-keygen -t ed25519 -C "cliver.js.t@gmail.com" -f clijst
 
 #### 3. Creamos un archivo config para poner nuestra configuracion de cuentas a conectar vía SSH.
@@ -38,6 +39,7 @@ Inicializar repositorio  o clonamos un repositorio
 
 ##### otros ejemplos
     git config user.email "soptec.cjsc@gmail.com"
+#### -
     git config user.email "cliver.js.t@gmail.com"
 
 #### 3. Hacemos cambion normales a nuestro repositorio
